@@ -13,5 +13,7 @@ use App\Http\Controllers\FreshlyPickedController;
 |
 */
 Route::get('/products', [FreshlyPickedController::class, 'index']);
-Route::get('/products/register', [FreshlyPickedController::class, 'create']);
+Route::get('/products/{:productId}', [ProductController::class, 'edit']);
+Route::put('/products/{:productId}/update', [ProductController::class, 'update']);
+Route::delete('/products/{:productId}/delete', [ProductController::class, 'destroy']);
 
