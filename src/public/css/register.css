@@ -1,0 +1,46 @@
+.content__heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    color: #000;
+  }
+.register-form__group {
+    display: grid;
+    align-items: center;
+    margin-top: 32px;
+  
+    grid-template-columns: 1fr 2fr;
+  }
+  .register-form__input {
+    padding: 8px 16px;
+    background-color: #F4F4F4;
+    color: #BEB1A6;
+  }
+  .register-form__required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #ff0000;
+    color: #ffffff;
+  }
+  .register-form__season-inputs {
+    display: flex;
+    justify-content: left;
+  }
+  .register-form__gender-option {
+    margin-right: 64px;
+  }
+  .register-form__gender-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .register-form__gender-text::before {
+    display: block;
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #8B7969;
+    border-radius: 50%;
+    content: '';
+  }
